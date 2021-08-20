@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.header {
+    background-color: #D35400;
+}
+
+.header-content {
+    overflow: hidden;
+    background-color: #D35400;
+    padding: 10px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0.2em;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.header-content-li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.header-content-left-logo {
+    background-color: white;
+    border: 4px solid darkgray;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.header-content-left-logo-image {
+    float: left;
+    width: 50px;
+}
+
+.header-content-logo-description {
+    line-height: 50px;
+    font-weight: bold;
+    color: #D35400;
+}
+
+.header-content-description {
+    line-height: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.header-content-right {
+    float: right;
+    margin-top: 5px;
+}
+
+.header-content-icons {
+    color: white;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.nav-content {
+    max-width: 1000px;
+    margin: auto;
+    overflow: auto;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.nav-content-logo {
+    width: 60px;
+    float: left;
+    margin: auto;
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-right: 40px;
+}
+
+.nav-content-ul {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    line-height: 50px;
+}
+
+.nav-content-li {
+    float: left;
+}
+
+.nav-content-li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 70px;
+}
+
+.nav-content-li a:hover {
+    background-color: #D35400;
+    border-radius: 10px;
+    color: white;
+    font-size:20px ;
+}
+
+.nav-content-logo:hover{
+    width: 70px;
+}
+
+.dog-banner{
+    background-color: #D4E5F3;
+}
+
+.dog-banner-image{
+    background-image: url("../images/dogs-min.png");
+    max-width: 1100px;
+    margin: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dog-banner-image-description{
+    background-color:#C9C9C9DD;
+    border-radius: 20px;
+    float: right;
+    width: 230px;
+    height: 400px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.dog-banner-image-description-h2{
+    font-size: 30px;
+}
+
+.fa-whatsapp-square{
+    font-size: 26px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.raçoes{
+    background-color: #D35400;
+}
+
+.raçoes-description{
+    padding: 35px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.description-h2{
+    margin: auto;
+    text-align: center;
+    font-family:cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.description-p{
+    font-size: 20px;
+}
+
+.raçoes-description-images{
+    text-align: center;
+    border-radius: 70%;
+}
+
+.golden{
+    width: 300px;
+}
+
+.brinquedos{
+    background-color:#EEEEEE ;
+}
+
+.brinquedos-description{
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.brinquedos-h2{
+    color: black;
+}
+
+.brinquedos-description-images{
+    border-radius: 20%;
+    margin: auto;
+    width: 300px;
+}
+
+.brinquedos-description-images:hover{
+    width: 305px;
+}
+
+.whatsapp-fixed{
+    width: 70px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 15px;
+}
+
+.sobre{
+    background-color:#D35400 ;
+}
+
+.sobre-container{
+    padding: 35px;
+    max-width: 1000px;
+    margin: auto;
+    overflow: auto;
+}
+
+.sobre-container-h2{
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-family:cursive;
+    font-size: 40px;
+}
+
+.sobre-container-leftinformations{
+    max-width: 300px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.sobre-container-rightiformations{
+    float: right;
+    max-width: 300px;
+    padding: 10px;
+}
+
+.map-link:hover{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:795px) {
+    
+    .nav-content-logo {
+        width: 50px;
+        float: left;
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-right: 0px;
+    }
+
+    .nav-content-ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        line-height: 50px;
+        font-size: 11px;
+    }
+
+    .nav-content-li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        margin-left: 0px;
+    }
+
+    .nav-content-li a:hover{
+        font-size: 16px;
+    }
+
+    .brinquedos-description-images{
+        width: 300px;
+    }
+
+    .whatsapp-fixed{
+        width: 50px;
+    }
+
+}
